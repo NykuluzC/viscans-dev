@@ -1,0 +1,55 @@
+# Ignore build outputs and dependencies
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+.DS_Store
+
+# Rider IDE files
+.idea/
+*.sln.iml
+*.sln.dotSettings
+*.sln.dotSettings.user
+.idea_modules/
+
+# User-specific Rider settings
+workspace.xml
+shelf/
+tasks.xml
+.idea/
+*.ipr
+*.iws
+
+# ASP.NET specific
+appsettings*.json
+.env
+
+# Rider-based caches
+.idea/httpRequests/
+.idea/.idea.PHPStorm/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/vcs.xml
+
+# .NET specific
+.vscode/
+project.lock.json
+*.suo
+*.user
+*.csproj.user
+.vs/
+.nuget/
+packages/
+node_modules/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swn
+*.swo
+Thumbs.db
